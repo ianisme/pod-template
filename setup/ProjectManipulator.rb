@@ -132,7 +132,7 @@ RUBY
             text = text.gsub(find, replace)
         end
 
-        File.open(name, "w") { |file| file.puts text }
+        #File.open(name, "w") { |file| file.puts text }
       end
     end
 
